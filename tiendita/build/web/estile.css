@@ -1,0 +1,18 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 mar 2023, 22:03:52
+    Author     : emidi
+*/
+body{
+    background-color: #6666ff;
+}
+.di,.dia,.diu,.die,.dii{
+    background-color: #ff3366;
+    margin: 15px;
+    width: 50px;
+
+    
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>tienda online uwu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="Stylesheet" href="./estile.css">
+        
+       
+    </head>
+    <body>
+     <div class="di">
+        <h1>Registrar Clientela</h1>
+        <form action="SvCliente" method="post">
+            <label >Nombre completo: </label>
+            <input type="text" name="nombre">
+            <br>
+            <label >Telefono: </label>
+            <input type="number" name="telefono">
+            <br>
+            <label >Correo: </label>
+            <input type="email" name="correo">
+            <br>
+            <label>Saldo: $</label>
+            <input type="number" name="saldo"/>
+            <br>
+            <input type="submit" value="Registrar cliente">
+        </form>
+     </div>
+    <div class="diu">
+    <h1>Consultar clientela</h1>
+    <form method="post" action="SvConsultarcliente">
+        <label >Nombre del cliente: </label>
+        <input type="text" name="nombreconsultar">
+        <br>
+        <input type="submit" value="Consultar"/>
+    </form>
+     </div>
+   
+   <div class="die">
+    <h1>Registrar products</h1>
+    <form method="post" action="SvProductos">
+        <label >Nombre del producto: </label>
+        <input type="text" name="nombre">
+        <br>
+        <label >Precio del producto: $</label>
+        <input type="number" name="precio">
+        <br>
+        <label >Existencia del producto: </label>
+        <input type="number" name="existencia">
+        <br>
+        <input type="submit" value="Registrar producto"/>
+    </form>
+     </div>
+    <div class="dia">
+    <h1>Consultar products</h1>
+    <form method="post" action="Svconsultar"> 
+        <label >Nombre del producto: </label>
+        <input type="text" name="nombrebuscar">
+        <br>
+        <input type="submit" value="Consultar">
+    </form>
+     </div>
+   <div class="dii">
+    <h1>Comprar products</h1>
+    <form method="post" action="SvComprar"> 
+        <label >¿Cómo que cliente desea comprar? </label>
+        <input type="text" name="nombrecc">
+        <br>
+        <label >Nombre del producto: </label>
+        <input type="text" name="nombrebuscar">
+        <br>
+        <label >Existencias que desea comprar: </label>
+        <input type="number" name="existenciacomprar">
+        <br>
+        <input type="submit" value="Comprar">
+    </form>
+     </div>
+    </body>
+</html>
